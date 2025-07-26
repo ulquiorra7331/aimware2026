@@ -15,12 +15,12 @@ local function FileCreator()
     end)
 
     if not exists_json_lib_file then
-        local body = http.Get("https://raw.githubusercontent.com/blackscuro23b/aimware2025/refs/heads/main/Json.lua") 
+        local body = http.Get("https://raw.githubusercontent.com/ulquiorra7331/aimware2025/refs/heads/main/Json.lua") 
         file.Write(json_lib_file, body) 
     end
 
     if not exists_walkbot_record_file then
-        local body = http.Get("https://raw.githubusercontent.com/blackscuro23b/aimware2025/refs/heads/main/routes.txt")
+        local body = http.Get("https://raw.githubusercontent.com/ulquiorra7331/aimware2025/refs/heads/main/routes.txt")
         file.Write(walkbot_record_file, body or "{}")
     end
 end
