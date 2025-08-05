@@ -1,1 +1,16 @@
-a
+[
+    {
+        "free": [
+            {
+                "movement(test)": "https://ulquiorra.store/lua/movement.html"
+            }
+        ]
+    },
+    {
+        "premium": [
+            {
+                "walkbot": "https://raw.githubusercontent.com/ulquiorra7331/aimware2026/refs/heads/main/dependencies/test2.txt"
+            }
+        ]
+    }
+]
