@@ -9,7 +9,7 @@
     {
         "premium": [
             {
-                "walkbota": "https://raw.githubusercontent.com/ulquiorra7331/aimware2026/refs/heads/main/dependencies/test2.txt"
+                "walkbot": "https://raw.githubusercontent.com/ulquiorra7331/aimware2026/refs/heads/main/dependencies/test2.txt"
             }
         ]
     }
